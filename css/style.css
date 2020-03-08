@@ -1,47 +1,58 @@
 h1 {
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-    font-size: 6rem;
-    text-align: center;
-    text-shadow: 5px 5px 5px black;
-    font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px black;
+  font-family: "Orbitron", sans-serif;
 }
 h2 {
-    text-align: center;
-    font-size: 4rem;
-    text-shadow: 3px 3px 3px #ff0000;
-    font-family: 'Oswald', sans-serif;
-
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px #ff0000;
+  font-family: "Oswald", sans-serif;
 }
-p, footer {
-    color: black;
-    text-shadow: 3px 3px 3px white;
-    font-size: 2rem
+p,
+footer {
+  color: black;
+  text-shadow: 1px 1px 3px white;
+  font-size: 1.3rem;
 }
-body{
-    background-image: url(https://images.pexels.com/photos/3532097/pexels-photo-3532097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-repeat: no-repeat;
-    background-color: rgb(29, 76, 218);
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://images.pexels.com/photos/3532097/pexels-photo-3532097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-color: rgb(29, 76, 218);
 }
 table {
-    border-collapse: collapse;
-    margin: auto;
+  font-size: 1.2rem;
+  border-collapse: collapse;
+  margin: auto;
+  color: white;
+  width: 100%;
 }
-td{
-    border: 5px double red;
-    background-color: black;
-    color: white;
-    font-size: 3rem;
-    text-align: center;
+td {
+  border: 5px double red;
+  padding: 5px;
+  background-color: black;
+  text-align: center;
 }
-a{
-    color: white;
+
+a {
+  color: white;
 }
 
 footer {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
-.align{
-    text-align: center;
+.align {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 1rem;
+    }
 }
