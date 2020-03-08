@@ -13,7 +13,7 @@ h2 {
     font-family: 'Oswald', sans-serif;
 
 }
-p {
+p, footer {
     color: black;
     text-shadow: 3px 3px 3px white;
     font-size: 2rem
@@ -37,6 +37,11 @@ td{
 a{
     color: white;
 }
+
+footer {
+    margin: 20px 0;
+}
+
 .align{
     text-align: center;
 }
