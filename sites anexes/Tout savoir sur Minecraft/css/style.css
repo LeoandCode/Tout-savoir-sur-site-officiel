@@ -22,7 +22,8 @@ h2 {
 p {
     color: black;
     text-shadow: 3px 3px 3px white;
-    font-size: 2rem
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .hidden {
     display: none;
