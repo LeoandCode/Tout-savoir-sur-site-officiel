@@ -1,46 +1,50 @@
 h1 {
   text-decoration: none;
-  color: rgb(255, 0, 0);
+  color: #ffd000;
   text-align: center;
   font-size: 3rem;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 5px rgb(255, 255, 255);
   font-family: "Orbitron", sans-serif;
 }
 h2 {
+  color: #008cff;
   text-align: center;
   font-size: 2rem;
-  text-shadow: 1px 1px 3px #ff0000;
+  text-shadow: 1px 1px 3px #ffffff;
   font-family: "Oswald", sans-serif;
 }
 p,
-footer {
-  color: black;
-  text-shadow: 1px 1px 3px white;
+footer, td {
+  color: #000000;
+  text-shadow: 1px 1px 3px #ffffff;
   font-size: 1.3rem;
+}
+td{
+  text-shadow: none;
 }
 body {
   width: 90%;
   margin: 0 auto;
-  background-image: url("https://images.pexels.com/photos/3532097/pexels-photo-3532097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /*background-image: url("https://images.pexels.com/photos/3532097/pexels-photo-3532097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
   background-repeat: no-repeat;
-  background-color: rgb(29, 76, 218);
+  background-color: #a8a8a8;
 }
 table {
   font-size: 1.2rem;
   border-collapse: collapse;
   margin: auto;
-  color: white;
+  color: #ffffff;
   width: 100%;
 }
 td {
-  border: 5px double red;
+  border: 5px double #2bff00;
   padding: 5px;
-  background-color: black;
+  background-color: #f3f2f2;
   text-align: center;
 }
 
 a {
-  color: white;
+  color: #ff3838;
 }
 
 footer {
