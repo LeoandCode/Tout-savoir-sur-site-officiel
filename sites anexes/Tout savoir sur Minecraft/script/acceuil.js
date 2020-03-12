@@ -1,7 +1,7 @@
 let menu = document.getElementById('menu');
-let ul = document.getElementsByTagName('ul')
+let nav = document.getElementsByTagName('nav')
 menu.addEventListener('click', function () {
-    if (ul[0].classList.contains('hidden')) ul[0].classList.remove('hidden');
-    else ul[0].classList.add('hidden')
+    if (nav[0].classList.contains('hidden')) nav[0].classList.remove('hidden');
+    else nav[0].classList.add('hidden')
 })
-ul.addEventListener
+nav.addEventListener
