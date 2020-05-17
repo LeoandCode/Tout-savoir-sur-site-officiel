@@ -60,3 +60,10 @@ footer {
         font-size: 1rem;
     }
 }
+.message{
+  background-color: white;
+padding: 5px 15px;
+border-radius: 25px;
+text-decoration: none;
+color: #ff0000;
+}
